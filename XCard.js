@@ -3,15 +3,6 @@ class XCard extends Application {
         super();
     }
 
-    activateListeners(html) {
-        super.activateListeners(html);
-        //const showButton = html.find("button[id='show_button']");
-        //showButton.on("click", event => this._onShowButtonClick(event, html));
-    }
-
-    _actionFunction(event, html){
-    }
-
     static get defaultOptions() {
         const options = super.defaultOptions; 
         options.template= "modules/XCard/XCard.html";
