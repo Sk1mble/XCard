@@ -4,7 +4,7 @@
     "description": "A module that implements the X-Card safety system.",
     "author": "Richard Bellingham (Skimble)",
     "scripts": ["./XCard.js"],
-    "version": "0.0.2",
+    "version": "0.0.3",
     "minimumCoreVersion": "0.6.0",
     "compatibleCoreVersion":"0.7.0",
     "socket":true,
