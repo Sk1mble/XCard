@@ -8,6 +8,7 @@
     "minimumCoreVersion": "0.6.0",
     "compatibleCoreVersion":"0.7.0",
     "socket":true,
-    "download":"https://github.com/Sk1mble/XCard/archive/master.zip"
+    "download":"https://github.com/Sk1mble/XCard/archive/master.zip",
+    "manifest":"https://raw.githubusercontent.com/Sk1mble/XCard/master/module.json"
   }
   
