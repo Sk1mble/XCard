@@ -18,7 +18,7 @@
         "name": "Español",
         "path": "languages/es.json"
     }],
-    "download": "https://github.com/Sk1mble/XCard/archive/master.zip",
+    "download": "https://github.com/Sk1mble/XCard/archive/v0.0.4.zip",
     "manifest": "https://raw.githubusercontent.com/Sk1mble/XCard/master/module.json"
   }
 
