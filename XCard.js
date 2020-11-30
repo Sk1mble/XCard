@@ -6,7 +6,7 @@ class XCard extends Application {
     static get defaultOptions() {
         const options = super.defaultOptions; 
         options.template= "modules/XCard/XCard.html";
-        options.title="X-Card";
+        options.title=game.i18n.localize("XCard.WindowTitle");
         options.id = XCard;
         options.width="auto";
         options.height="auto";
@@ -25,9 +25,9 @@ Hooks.on('getSceneControlButtons', function(hudButtons)
     let hud = hudButtons.find(val => {return val.name == "token";})
             if (hud){
                 hud.tools.push({
-                    name:"XCard",
-                    title:"Display an X-Card to the GM and all players",
-                    icon:"fas fa-times",
+                    name: game.i18n.localize("XCard.ButtonName"),
+                    title: game.i18n.localize("XCard.ButtonHint"),
+                    icon: game.i18n.localize("XCard.ButtonFAIcon"),
                     onClick: ()=> {
                         let xc = new XCard; xc.render(true);
                         game.socket.emit("module.XCard",{"event":"XCard"})},
