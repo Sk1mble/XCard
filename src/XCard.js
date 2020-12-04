@@ -16,20 +16,19 @@ class XCard extends Application {
     }
 
     async getData() {
-        const showImage = game.settings.get("XCard", "imageToggle");
+        const imageToggle = game.settings.get("XCard", "imageToggle");
         const imagePath = game.settings.get("XCard", "imagePath");
 
         let imageWidth = 0;
         let imageHeight = 0;
-        if (showImage) {
+        if (imageToggle) {
             const tex = await loadTexture(imagePath);
             imageWidth = tex.width;
             imageHeight = tex.height;
         }
 
         return {
-            showImage: showImage,
-            showText: !showImage,
+            imageToggle: imageToggle,
             imagePath: imagePath,
             imageWidth: imageWidth,
             imageHeight: imageHeight
