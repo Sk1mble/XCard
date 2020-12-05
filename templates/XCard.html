@@ -1,0 +1,11 @@
+<body>
+    {{#if imageToggle}}
+        <img src="{{ imagePath }}" width="{{ imageWidth }}" height="{{ imageHeight }}" />
+    {{/if}}
+
+    {{#unless imageToggle}}
+        <b style="text-align:center; font-size:500px">{{localize 'XCard.WindowSymbol'}}</b>
+    {{/unless}}
+
+    <a href="http://tinyurl.com/x-card-rpg">{{localize 'XCard.Authorship'}}</a>
+</body>
