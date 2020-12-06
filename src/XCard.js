@@ -9,9 +9,14 @@ class XCard extends Application {
         options.template = "modules/XCard/templates/XCard.html";
         options.title = "XCard.WindowTitle";
         options.id = "XCard";
-        options.width = "auto";
-        options.height = "auto";
         options.resizable = false;
+        if (game.settings.get("XCard","imageToggle")){
+            options.height = game.settings.get("XCard","imageSize").height+75;
+            options.width = game.settings.get("XCard","imageSize").width+50;
+        } else {
+            options.height="auto";
+            options.width="auto";
+        }
         return options;
     }
 
@@ -45,7 +50,7 @@ Hooks.on('getSceneControlButtons', function(hudButtons)
             title: "XCard.ButtonHint",
             icon: game.i18n.localize("XCard.ButtonFAIcon"),
             button: true,
-            onClick: () => {
+            onClick: async () => {
                 let xc = new XCard();
                 xc.render(true);
                 game.socket.emit("module.XCard", {"event": "XCard"})
@@ -55,10 +60,12 @@ Hooks.on('getSceneControlButtons', function(hudButtons)
 });
 
 Hooks.once('ready', async function () {
+
     game.socket.on("module.XCard", data => {
         let xc = new XCard();
         xc.render(true);
     });
+
     game.settings.register("XCard", "imageToggle", {
         name: "XCard.Settings.ImageToggleName",
         hint: "XCard.Settings.ImageToggleHint",
@@ -67,11 +74,32 @@ Hooks.once('ready', async function () {
         type: Boolean,
         default: false
     });
+
+    game.settings.register("XCard", "imageSize", {
+        config: false,
+        type:Object,
+        default:{"width":300,"height":500}
+    })
+
     game.settings.register("XCard", "imagePath", {
         name: "XCard.Settings.ImagePathName",
         hint: "XCard.Settings.ImagePathHint",
         scope: "world",
         config: true,
-        type: window.Azzu.SettingsTypes.FilePickerImage
+        type: window.Azzu.SettingsTypes.FilePickerImage,
+        onChange: async value => {
+            const tex = await loadTexture(value);
+            imageWidth = tex.width;
+            imageHeight = tex.height;
+            await game.settings.set("XCard", "imageSize",{"width":imageWidth,"height":imageHeight});
+        }
     });
+
+    if (game.settings.get("XCard","imageToggle")){
+        const tex = await loadTexture(game.settings.get("XCard","imagePath"));
+            imageWidth = tex.width;
+            imageHeight = tex.height;
+            await game.settings.set("XCard", "imageSize",{"width":imageWidth,"height":imageHeight});
+    }
+
 });
