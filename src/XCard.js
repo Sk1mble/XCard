@@ -86,7 +86,7 @@ Hooks.once('ready', async function () {
         hint: "XCard.Settings.ImagePathHint",
         scope: "world",
         config: true,
-        type: window.Azzu.SettingsTypes.FilePickerImage,
+        type: String,
         onChange: async value => {
             const tex = await loadTexture(value);
             imageWidth = tex.width;

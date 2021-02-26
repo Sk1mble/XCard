@@ -3,11 +3,11 @@
     "title": "X-Card",
     "description": "A module that implements the X-Card safety system.",
     "author": "Richard Bellingham (Skimble)",
-    "version": "0.0.6",
+    "version": "0.0.7",
     "minimumCoreVersion": "0.6.0",
     "compatibleCoreVersion": "0.8.0",
     "socket": true,
-    "scripts": ["./src/XCard.js", "./src/settings-extender.js"],
+    "scripts": ["./src/XCard.js"],
     "languages": [{
         "lang": "en",
         "name": "English",
@@ -19,7 +19,7 @@
         "path": "languages/es.json"
     }],
     "url": "https://github.com/Sk1mble/XCard",
-    "download": "https://github.com/Sk1mble/XCard/archive/v0.0.6.zip",
+    "download": "https://github.com/Sk1mble/XCard/archive/v0.0.7.zip",
     "manifest": "https://raw.githubusercontent.com/Sk1mble/XCard/master/module.json"
   }
 
