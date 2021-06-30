@@ -1,0 +1,12 @@
+{
+	"XCard.Authorship": "Carte X par John Stavropoulos",
+	"XCard.ButtonName": "Carte X",
+	"XCard.ButtonHint": "Affiche une Carte X au MJ et à tous les joueurs",
+	"XCard.ButtonFAIcon": "fas fa-times",
+	"XCard.Settings.ImageToggleName": "Utiliser une image",
+	"XCard.Settings.ImageToggleHint": "Activez ceci pour afficher une image personnalisée, à la place du symbole par défaut.",
+	"XCard.Settings.ImagePathName": "Chemin vers l'image",
+	"XCard.Settings.ImagePathHint": "Sélectionnez l'image à afficher si 'Utiliser une image' est activé.",
+	"XCard.WindowSymbol": "X",
+	"XCard.WindowTitle": "Carte X"
+}
