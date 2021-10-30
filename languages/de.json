@@ -1,5 +1,6 @@
 {
-	"XCard.Authorship": "Beschreibung (en) der X-Card von John Stavropoulos",
+	"XCard.Authorship": "Beschreibung der X-Card von John Stavropoulos",
+	"XCard.AuthorshipUrl": "https://tinyurl.com/xkarterollenspiel",
 	"XCard.ButtonName": "X-Card",
 	"XCard.ButtonHint": "Zeige die X-Card der SL und allen Spielern",
 	"XCard.ButtonFAIcon": "fas fa-times",

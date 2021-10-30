@@ -1,5 +1,6 @@
 {
 	"XCard.Authorship": "X-Card by John Stavropoulos",
+	"XCard.AuthorshipUrl": "http://tinyurl.com/x-card-rpg",
 	"XCard.ButtonName": "X-Card",
 	"XCard.ButtonHint": "Display an X-Card to the GM and all players",
 	"XCard.ButtonFAIcon": "fas fa-times",

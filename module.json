@@ -25,7 +25,7 @@
           "path": "languages/es.json"
       }
     ],
-    "url": "https://github.com/Sk1mble/XCard",
+    "url": "https://github.com/brockhaus/XCard",
     "download": "https://github.com/brockhaus/XCard/archive/v0.0.9.zip",
     "manifest": "https://raw.githubusercontent.com/brockhaus/XCard/master/module.json"
   }
