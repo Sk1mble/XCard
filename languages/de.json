@@ -1,0 +1,12 @@
+{
+	"XCard.Authorship": "Beschreibung (en) der X-Card von John Stavropoulos",
+	"XCard.ButtonName": "X-Card",
+	"XCard.ButtonHint": "Zeige die X-Card der SL und allen Spielern",
+	"XCard.ButtonFAIcon": "fas fa-times",
+	"XCard.Settings.ImageToggleName": "Eigenes Bild benutzen",
+	"XCard.Settings.ImageToggleHint": "Anschalten, um ein eigenes Bild als X-Card zu nutzen.",
+	"XCard.Settings.ImagePathName": "Pfad zum eigenen Bild",
+	"XCard.Settings.ImagePathHint": "Wähle das Bild, das bei 'Eigenes Bild benutzen' genommen werden soll.",
+	"XCard.WindowSymbol": "X",
+	"XCard.WindowTitle": "X-Card"
+}

@@ -8,16 +8,23 @@
     "compatibleCoreVersion": "0.8.0",
     "socket": true,
     "scripts": ["./src/XCard.js"],
-    "languages": [{
-        "lang": "en",
-        "name": "English",
-        "path": "languages/en.json"
-    },
-    {
-        "lang": "es",
-        "name": "Español",
-        "path": "languages/es.json"
-    }],
+    "languages": [
+      {
+          "lang": "en",
+          "name": "English",
+          "path": "languages/en.json"
+      },
+      {
+          "lang": "de",
+          "name": "Deutsch",
+          "path": "languages/de.json"
+      },
+      {
+          "lang": "es",
+          "name": "Español",
+          "path": "languages/es.json"
+      }
+    ],
     "url": "https://github.com/Sk1mble/XCard",
     "download": "https://github.com/Sk1mble/XCard/archive/v0.0.7.zip",
     "manifest": "https://raw.githubusercontent.com/Sk1mble/XCard/master/module.json"
