@@ -1,11 +1,11 @@
 <body>
     {{#if imageToggle}}
-        <img style="display:block; margin-left:auto; margin-right:auto" src="{{ imagePath }}" width="{{ imageWidth }}" height="{{ imageHeight }}" />
+        <img style="display:block; margin-left:auto; margin-right:auto; border:none" src="{{ imagePath }}" width="{{ imageWidth }}" height="{{ imageHeight }}" />
     {{/if}}
 
     {{#unless imageToggle}}
-        <b style="text-align:center; font-size:500px">{{localize 'XCard.WindowSymbol'}}</b>
+        <b style="text-align:center; font-size:430px;">{{localize 'XCard.WindowSymbol'}}</b>
     {{/unless}}
 
-    <a style="display:block; margin-left:auto; margin-right:auto" href="http://tinyurl.com/x-card-rpg">{{localize 'XCard.Authorship'}}</a>
+    <a style="display:block; margin-left:auto; margin-right:auto; color: black; text-decoration: none;" href="{{localize 'XCard.AuthorshipUrl'}}">{{localize 'XCard.Authorship'}}</a>
 </body>

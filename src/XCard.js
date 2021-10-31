@@ -14,8 +14,8 @@ class XCard extends Application {
             options.height = game.settings.get("XCard","imageSize").height+75;
             options.width = game.settings.get("XCard","imageSize").width+50;
         } else {
-            options.height="auto";
-            options.width="auto";
+            options.height="600";
+            options.width="400";
         }
         return options;
     }
