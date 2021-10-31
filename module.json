@@ -3,7 +3,7 @@
     "title": "X-Card",
     "description": "A module that implements the X-Card safety system.",
     "author": "Richard Bellingham (Skimble)",
-    "version": "0.0.10",
+    "version": "0.0.11",
     "minimumCoreVersion": "0.6.0",
     "compatibleCoreVersion": "0.8.9",
     "socket": true,
@@ -26,7 +26,7 @@
       }
     ],
     "url": "https://github.com/brockhaus/XCard",
-    "download": "https://github.com/brockhaus/XCard/archive/v0.0.10.zip",
+    "download": "https://github.com/brockhaus/XCard/archive/v0.0.11.zip",
     "manifest": "https://raw.githubusercontent.com/brockhaus/XCard/master/module.json"
   }
 
