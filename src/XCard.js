@@ -87,6 +87,7 @@ Hooks.once('ready', async function () {
         scope: "world",
         config: true,
         type: String,
+        default:"",
         onChange: async value => {
             const tex = await loadTexture(value);
             imageWidth = tex.width;
