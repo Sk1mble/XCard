@@ -1,5 +1,6 @@
 {
   "id": "XCard",
+  "name":"XCard",
   "title": "X-Card",
   "description": "A module that implements the X-Card safety system.",
   "authors": [{"name":"Richard Bellingham"}],
