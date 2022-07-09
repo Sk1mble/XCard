@@ -8,7 +8,7 @@
   "flags": {},
   "version": "0.0.9",
   "minimumCoreVersion": "0.6.0",
-  "compatibleCoreVersion": "10.270",
+  "compatibleCoreVersion": "10.272",
   "compatibility": {
     "minimum":"0.6.0",
     "verified":"10.270"
