@@ -6,7 +6,7 @@
   "authors": [{"name":"Richard Bellingham"}],
   "url": "https://github.com/Sk1mble/XCard",
   "flags": {},
-  "version": "0.0.8",
+  "version": "0.0.9",
   "minimumCoreVersion": "0.6.0",
   "compatibleCoreVersion": "10.270",
   "compatibility": {
@@ -39,7 +39,7 @@
   "dependencies": [],
   "socket": true,
   "manifest": "https://raw.githubusercontent.com/Sk1mble/XCard/master/module.json",
-  "download": "https://github.com/Sk1mble/XCard/archive/v0.0.8.zip",
+  "download": "https://github.com/Sk1mble/XCard/archive/v0.0.9.zip",
   "protected": false,
   "coreTranslation": false,
   "library": false,
