@@ -36,7 +36,6 @@
   ],
   "packs": [],
   "system": [],
-  "dependencies": [],
   "socket": true,
   "manifest": "https://raw.githubusercontent.com/Sk1mble/XCard/master/module.json",
   "download": "https://github.com/Sk1mble/XCard/archive/v0.0.9.zip",
