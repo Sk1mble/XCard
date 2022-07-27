@@ -8,10 +8,10 @@
   "flags": {},
   "version": "0.0.9",
   "minimumCoreVersion": "0.6.0",
-  "compatibleCoreVersion": "10.272",
+  "compatibleCoreVersion": "10.275",
   "compatibility": {
     "minimum":"0.6.0",
-    "verified":"10.272"
+    "verified":"10.275"
   },
   "scripts": [
     "./src/XCard.js"
