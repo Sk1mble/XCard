@@ -2,7 +2,7 @@
 	"XCard.Authorship": "X-Card by John Stavropoulos",
 	"XCard.ButtonName": "X-Card",
 	"XCard.ButtonHint": "Display an X-Card to the GM and all players",
-	"XCard.ButtonFAIcon": "fas fa-times",
+	"XCard.ButtonFAIcon": "fas fa-comment-xmark",
 	"XCard.Settings.ImageToggleName": "Use picture",
 	"XCard.Settings.ImageToggleHint": "Enable this to display a custom picture instead of the default symbol.",
 	"XCard.Settings.ImagePathName": "Path to image",

@@ -2,7 +2,7 @@
 	"XCard.Authorship": "Tarjeta X por John Stavropoulos",
 	"XCard.ButtonName": "Tarjeta X",
 	"XCard.ButtonHint": "Muestra una Tarjeta X al DJ y a todos los jugadores",
-	"XCard.ButtonFAIcon": "fas fa-times",
+	"XCard.ButtonFAIcon": "fas fa-comment-xmark",
 	"XCard.Settings.ImageToggleName": "Usar imagen",
 	"XCard.Settings.ImageToggleHint": "Activa esta opción para mostrar una imagen personalizada en vez del símbolo por defecto.",
 	"XCard.Settings.ImagePathName": "Ruta de la imagen",

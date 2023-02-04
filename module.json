@@ -1,50 +1,37 @@
 {
   "id": "XCard",
-  "name":"XCard",
   "title": "X-Card",
   "description": "A module that implements the X-Card safety system.",
-  "authors": [{"name":"Richard Bellingham"}],
+  "authors": [
+    {
+      "name": "Richard Bellingham",
+      "flags": {}
+    }
+  ],
   "url": "https://github.com/Sk1mble/XCard",
-  "flags": {},
-  "version": "0.0.9",
-  "minimumCoreVersion": "0.6.0",
-  "compatibleCoreVersion": "10.275",
+  "version": "0.0.10",
   "compatibility": {
-    "minimum":"0.6.0",
-    "verified":"10.275"
+    "minimum": "0.6.0",
+    "verified": "10.275"
   },
   "scripts": [
-    "./src/XCard.js"
+    "src/XCard.js"
   ],
-  "esmodules": [],
-  "styles": [],
   "languages": [
     {
       "lang": "en",
       "name": "English",
       "path": "/languages/en.json",
-      "system": "",
-      "module": ""
+      "flags": {}
     },
     {
       "lang": "es",
       "name": "Español",
       "path": "/languages/es.json",
-      "system": "",
-      "module": ""
+      "flags": {}
     }
   ],
-  "packs": [],
-  "system": [],
   "socket": true,
   "manifest": "https://raw.githubusercontent.com/Sk1mble/XCard/master/module.json",
-  "download": "https://github.com/Sk1mble/XCard/archive/v0.0.9.zip",
-  "protected": false,
-  "coreTranslation": false,
-  "library": false,
-  "license": "",
-  "readme": "",
-  "bugs": "",
-  "changelog": "",
-  "minimumSystemVersion": ""
+  "download": "https://github.com/Sk1mble/XCard/archive/v0.0.10.zip"
 }
