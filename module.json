@@ -29,6 +29,12 @@
       "name": "Español",
       "path": "/languages/es.json",
       "flags": {}
+    },
+    {
+      "lang": "ca",
+      "name": "Català",
+      "path": "/languages/ca.json",
+      "flags": {}
     }
   ],
   "socket": true,

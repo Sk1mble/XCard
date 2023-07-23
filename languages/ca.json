@@ -1,0 +1,12 @@
+{
+	"XCard.Authorship": "Targeta X per John Stavropoulos",
+	"XCard.ButtonName": "Targeta X",
+	"XCard.ButtonHint": "Mostra una Targeta X al DJ i a tots els jugadors",
+	"XCard.ButtonFAIcon": "fas fa-times",
+	"XCard.Settings.ImageToggleName": "Utilitza una imatge",
+	"XCard.Settings.ImageToggleHint": "Activeu aquesta opció per a mostrar una imatge personalitzada en lloc del símbol per defecte.",
+	"XCard.Settings.ImagePathName": "Camí de la imatge",
+	"XCard.Settings.ImagePathHint": "Trieu la imatge a mostrar si està activat «Utilitza una imatge»",
+	"XCard.WindowSymbol": "X",
+	"XCard.WindowTitle": "Targeta X"
+}
