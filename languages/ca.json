@@ -3,10 +3,10 @@
 	"XCard.ButtonName": "Targeta X",
 	"XCard.ButtonHint": "Mostra una Targeta X al DJ i a tots els jugadors",
 	"XCard.ButtonFAIcon": "fas fa-times",
-	"XCard.Settings.ImageToggleName": "Usar imatge",
-	"XCard.Settings.ImageToggleHint": "Activa aquesta opció per mostrar una imatge personalitzada enlloc del símbol per defecte.",
+	"XCard.Settings.ImageToggleName": "Utilitza una imatge",
+	"XCard.Settings.ImageToggleHint": "Activeu aquesta opció per a mostrar una imatge personalitzada en lloc del símbol per defecte.",
 	"XCard.Settings.ImagePathName": "Camí de la imatge",
-	"XCard.Settings.ImagePathHint": "Tria la imatge a mostrar si 'Usar imatge' està activat.",
+	"XCard.Settings.ImagePathHint": "Trieu la imatge a mostrar si està activat «Utilitza una imatge».",
 	"XCard.WindowSymbol": "X",
 	"XCard.WindowTitle": "Targeta X"
 }
