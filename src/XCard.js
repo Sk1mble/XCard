@@ -43,20 +43,38 @@ class XCard extends Application {
 
 Hooks.on('getSceneControlButtons', function(hudButtons)
 {
-    let hud = hudButtons.find(val => { return val.name == "token"; })
-    if (hud) {
-        hud.tools.push({
-            name: "XCard.ButtonName",
+    if (foundry.utils.isNewerVersion(game.version, 13)){
+        hudButtons.tokens.tools.xCard = {
+            name: "xCard",
             title: "XCard.ButtonHint",
             icon: game.i18n.localize("XCard.ButtonFAIcon"),
-            button: true,
-            onClick: async () => {
+            onChange: async (event, active) => {
+              if ( active ) {
                 let xc = new XCard();
                 xc.render(true);
                 game.socket.emit("module.XCard", {"event": "XCard"})
-            }
-        });
+              }
+            },
+            button: true
+          };
+    } else {
+        let hud = hudButtons.find(val => { return val.name == "token"; })
+        if (hud) {
+            hud.tools.push({
+                name: "XCard.ButtonName",
+                title: "XCard.ButtonHint",
+                icon: game.i18n.localize("XCard.ButtonFAIcon"),
+                button: true,
+                onClick: async () => {
+                    let xc = new XCard();
+                    await xc.render(true);
+                    game.socket.emit("module.XCard", {"event": "XCard"})
+                }
+            });
+        }
     }
+
+    console.log(JSON.stringify(hudButtons.tokens.tools.xCard)+" "+hudButtons.tokens.tools.xCard.button);
 });
 
 Hooks.once('ready', async function () {
