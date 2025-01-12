@@ -73,8 +73,6 @@ Hooks.on('getSceneControlButtons', function(hudButtons)
             });
         }
     }
-
-    console.log(JSON.stringify(hudButtons.tokens.tools.xCard)+" "+hudButtons.tokens.tools.xCard.button);
 });
 
 Hooks.once('ready', async function () {
