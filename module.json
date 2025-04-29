@@ -9,10 +9,10 @@
     }
   ],
   "url": "https://github.com/Sk1mble/XCard",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "compatibility": {
     "minimum": "0.6.0",
-    "verified": "13.334"
+    "verified": "13.341"
   },
   "scripts": [
     "src/XCard.js"
@@ -33,5 +33,5 @@
   ],
   "socket": true,
   "manifest": "https://raw.githubusercontent.com/Sk1mble/XCard/master/module.json",
-  "download": "https://github.com/Sk1mble/XCard/archive/0.0.12.zip"
+  "download": "https://github.com/Sk1mble/XCard/archive/0.0.13.zip"
 }
